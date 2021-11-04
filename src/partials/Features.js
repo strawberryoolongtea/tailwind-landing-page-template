@@ -47,9 +47,9 @@ function Features() {
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
-                  className={`flex justify-between items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
-                  onClick={(e) => { e.preventDefault(); setTab(2); }}
+                  onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-4">INFP의 특징</div>
@@ -66,9 +66,9 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex justify-between items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex justify-between items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
-                  onClick={(e) => { e.preventDefault(); setTab(3); }}
+                  onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-4">잔나비띠의 특징</div>
@@ -94,7 +94,7 @@ function Features() {
                 
                 {/* Item 2 */}
                 <Transition
-                  show={tab === 2}
+                  show={tab === 1}
                   appear={true}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"
@@ -111,7 +111,7 @@ function Features() {
                 </Transition>
                 {/* Item 3 */}
                 <Transition
-                  show={tab === 3}
+                  show={tab === 2}
                   appear={true}
                   className="w-full"
                   enter="transition ease-in-out duration-700 transform order-first"

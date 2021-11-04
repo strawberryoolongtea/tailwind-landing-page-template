@@ -81,7 +81,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>              
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">창의적인 아이디어</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">디테일한 업무 처리</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
@@ -96,7 +96,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">디테일한 업무 처리</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">창의적인 아이디어</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
@@ -113,7 +113,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">창의적인 아이디어</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">지속적인 자기개발</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
