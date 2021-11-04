@@ -31,16 +31,19 @@ function HeroHome() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Make your website <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">wonderful</span></h1>
-            <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+          <div className="text-left pb-12 md:pb-16">
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">안녕하세요.</h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">용감한 <span className="bg-clip-text font-black text-transparent bg-gradient-to-r from-teal-400 to-blue-500">프론트엔드</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">개발자가 되고 싶은</h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out"><span className="bg-clip-text font-black text-transparent bg-gradient-to-r from-blue-500 to-teal-400">김수빈</span> 입니다.</h1>
+            <div className="max-w-6xl mx-auto">
+              <p className="text-center text-xl text-gray-600 mt-32 mb-8" data-aos="zoom-y-out" data-aos-delay="150">새는 알에서 나오기 위해 투쟁하며 알은 세계입니다. 태어나려는 자는 하나의 세계를 깨뜨려야 합니다.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
+                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">About Me</a>
                 </div>
                 <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
+                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Contact Me</a>
                 </div>
               </div>
             </div>
@@ -49,9 +52,9 @@ function HeroHome() {
           {/* Hero image */}
           <div>
             <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
-              <div className="flex flex-col justify-center">
-                <img className="mx-auto" src={require('../images/hero-image.png').default} width="768" height="432" alt="Hero" />
-                <svg className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="768" height="432" viewBox="0 0 768 432" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+              <div className="relative flex flex-col justify-center">
+                <img className="mx-auto" src={require('../images/hero-image-2.jpg').default} width="768" height="432" alt="Hero" />
+                {/* <svg className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="768" height="432" viewBox="0 0 768 432" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                   <defs>
                     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="hero-ill-a">
                       <stop stopColor="#FFF" offset="0%" />
@@ -78,7 +81,8 @@ function HeroHome() {
                       <use fill="url(#hero-ill-e)" xlinkHref="#hero-ill-d" />
                     </g>
                   </g>
-                </svg>
+                </svg> */}
+                <div className="absolute left-1/2 transform -translate-x-1/2 text-4xl text-white text-opacity-50 font-black leading-tighter z-50">저는 어떤 사람일까요?</div>
               </div>
               <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">
                 <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 flex-shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
